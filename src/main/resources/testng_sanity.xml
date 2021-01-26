@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Free CRM Application Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.poj.utils.RuntimeTestRetry"></listener>
+	</listeners>
+
+  <test thread-count="5" name="Free CRM App Test Cases">
+    <classes>
+      <class name="com.qa.poj.testcases.LoginPageTest"></class>
+      <!-- <class name="com.poj.qa.testcases.HomePageTest"></class> -->
+    </classes>
+  </test>
+</suite>

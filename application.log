@@ -1,0 +1,30 @@
+2020-03-08 17:32:24,840  INFO [main] LoginPageTest:39 - ************************* loginPageTitletest Passed********************************
+2020-03-08 17:32:44,406  INFO [main] LoginPageTest:47 - ************************* crmImgLogoTest Passed********************************
+2020-03-08 17:33:02,708  INFO [main] LoginPageTest:54 - ************************* loginTest Passed********************************
+2020-03-10 17:29:07,042  INFO [main] LoginPageTest:35 - ************************* loginPageTitletest Passed********************************
+2020-03-10 17:32:04,750  INFO [main] LoginPageTest:43 - ************************* crmImgLogoTest Passed********************************
+2020-03-10 17:37:02,308  INFO [main] LoginPageTest:50 - ************************* loginTest Passed********************************
+2020-03-10 17:57:33,081  INFO [main] LoginPageTest:35 - ************************* loginPageTitletest Passed********************************
+2020-03-10 17:58:29,617  INFO [main] LoginPageTest:43 - ************************* crmImgLogoTest Passed********************************
+2020-03-10 17:59:52,334  INFO [main] LoginPageTest:50 - ************************* loginTest Passed********************************
+2020-03-10 18:04:26,324 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-03-10 18:04:26,326 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-03-10 18:04:26,329 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-03-10 18:04:26,331 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-03-10 18:04:26,332 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/koolm/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-03-10 18:04:27,021 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-03-10 18:04:27,023 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-03-10 18:04:27,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-03-10 18:04:27,025 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-03-10 18:04:27,025 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/koolm/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-03-10 19:41:35,752  INFO [main] LoginPageTest:35 - ************************* loginPageTitletest Passed********************************
+2020-03-10 19:41:55,971  INFO [main] LoginPageTest:43 - ************************* crmImgLogoTest Passed********************************
+2020-03-15 16:28:37,939  INFO [main] LoginPageTest:35 - ************************* loginPageTitletest Passed********************************
+2020-03-15 16:31:08,434  INFO [main] LoginPageTest:43 - ************************* crmImgLogoTest Passed********************************
+2020-03-15 16:36:17,568  INFO [main] LoginPageTest:50 - ************************* loginTest Passed********************************
+2020-05-01 09:43:26,955  INFO [main] LoginPageTest:43 - ************************* crmImgLogoTest Passed********************************
+2020-05-01 09:43:45,316  INFO [main] LoginPageTest:50 - ************************* loginTest Passed********************************
+2020-05-01 09:50:26,710  INFO [main] LoginPageTest:43 - ************************* crmImgLogoTest Passed********************************
+2020-05-01 09:50:45,243  INFO [main] LoginPageTest:50 - ************************* loginTest Passed********************************
+2020-05-01 10:00:54,319  INFO [main] LoginPageTest:50 - ************************* loginTest Passed********************************
+2020-05-18 11:25:17,233  INFO [main] LoginPageTest:50 - ************************* loginTest Passed********************************
