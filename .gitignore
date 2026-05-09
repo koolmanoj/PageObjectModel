@@ -1,1 +1,80 @@
-/target/
+# =========================
+# Java / Maven / Gradle
+# =========================
+target/
+build/
+bin/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+
+# =========================
+# Eclipse
+# =========================
+.metadata/
+.project
+.classpath
+.settings/
+.loadpath
+.recommenders/
+
+# Eclipse launch files
+*.launch
+
+# =========================
+# IntelliJ IDEA (optional)
+# =========================
+.idea/
+*.iml
+
+# =========================
+# VS Code (optional)
+# =========================
+.vscode/
+
+# =========================
+# Selenium / TestNG
+# =========================
+test-output/
+surefire-reports/
+reports/
+screenshots/
+allure-results/
+allure-report/
+
+# WebDriver binaries
+drivers/
+*.exe
+
+# Logs
+logs/
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+*.properties.local
+config.local.properties
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.swp
+*~

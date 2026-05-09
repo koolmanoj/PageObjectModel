@@ -1,9 +1,14 @@
-package com.qa.poj.pages;
+  package com.qa.poj.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.locators.RelativeLocator;
+import org.openqa.selenium.support.ui.Select;
 
 import com.qa.poj.base.TestBase;
 
@@ -45,6 +50,14 @@ public class LoginPage extends TestBase{
 			password.sendKeys(pwd);
 			loginBtn.click();
 			
+			driver.findElement(RelativeLocator.with(By.tagName("cell1")).toRightOf(By.id("cell2")));
+			
+			driver.switchTo().newWindow(WindowType.TAB);
+			driver.switchTo().newWindow(WindowType.WINDOW);
+			
+			ChromeOptions options=new ChromeOptions();
+			options.addArguments("");
+			options.addArguments("--headless");
 			return new HomePage();
 		}
 

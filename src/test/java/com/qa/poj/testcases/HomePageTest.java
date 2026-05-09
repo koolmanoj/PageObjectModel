@@ -1,4 +1,4 @@
-package com.qa.poj.testcases;
+
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;

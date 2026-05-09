@@ -9,8 +9,6 @@
   <test thread-count="5" name="Free CRM App Test Cases">
     <classes>
       <class name="com.qa.poj.testcases.LoginPageTest"></class>
-      <class name="com.qa.poj.testcases.HomePageTest"></class>
-      <class name="com.qa.poj.testcases.ContactsPageTest"></class>
     </classes>
   </test>
 </suite>

@@ -2,6 +2,7 @@ package com.qa.poj.base;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -10,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
+import com.qa.poj.utils.DriverFactory;
 import com.qa.poj.utils.WebEventListener;
 
 public class TestBase {
@@ -39,6 +41,8 @@ public class TestBase {
 			driver = new FirefoxDriver();
 		}
 		
+		driver = DriverFactory.setBrowser("chrome");
+		
 		e_driver = new EventFiringWebDriver(driver);
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
@@ -52,6 +56,7 @@ public class TestBase {
 		
 		long IMPLICIT_WAIT = Long.parseLong(prop.getProperty("IMPLICIT_WAIT"));
 		driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
 		
 		driver.get(prop.getProperty("url"));
 		

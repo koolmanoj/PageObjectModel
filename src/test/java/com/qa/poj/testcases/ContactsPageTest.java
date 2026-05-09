@@ -32,8 +32,12 @@ public class ContactsPageTest extends TestBase {
 		contactsPage = homePage.clickOnContactsLink();
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 0)
 	public void verifyContactsPageLabelTest() throws InterruptedException {
+		Assert.assertTrue(contactsPage.verifyContactsLable());
+	}
+	@Test
+	public void A() throws InterruptedException {
 		Assert.assertTrue(contactsPage.verifyContactsLable());
 	}
 
